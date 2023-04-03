@@ -28,7 +28,6 @@ export const repositories = [
         dst: 'frontends',
         branch: env.BRANCH_FRONTENDS || 'main',
         org: env.ORG_FRONTENDS || 'shopware',
-        skip: true,
     },
     {
         name: 'gitlab.shopware.com/product/engineering/platform-group/pwa/frontends',
@@ -46,7 +45,6 @@ export const repositories = [
                 description: 'GitLab deploy key'
             },
         },
-        skip: true,
     },
     {
         name: 'shopware/admin-extension-sdk',
