@@ -70,7 +70,6 @@ export const repositories = [
                 description: 'Figma API key'
             },
         },
-        skip: true,
     },
     {
         name: 'shopware/meteor-component-library',
